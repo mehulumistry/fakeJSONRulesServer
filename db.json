@@ -1,0 +1,25 @@
+{
+  "rules": {
+    "static": [
+        {
+          "rule1": {
+              "description":"Is hazardous container allowed?",
+              "typesOfContainers":["OOG","HAZ","DAN"]
+          }
+        },
+        {
+          "rule2": {
+              "description":"Is 45 container size is allowed ?",
+              "sizeOfContainers": ["30","40","45"]
+          }
+        },
+        {
+          "rule3": {
+              "description":"Is placing container at location 5 is allowed?",
+              "sizeOfContainers": ["30","40","45"],
+              "containerLocation": [1, 2, 3, 4, 5]
+          }
+        }
+    ]
+  }
+}
